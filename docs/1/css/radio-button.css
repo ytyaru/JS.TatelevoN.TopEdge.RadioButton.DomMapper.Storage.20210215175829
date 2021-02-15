@@ -40,6 +40,7 @@ input[type="radio"] + label[disabled] {
 ul.radio-button-group {
     margin: 0;
     padding: 0;
+    display: inline;
 }
 ul.radio-button-group li{
     margin: 0;
