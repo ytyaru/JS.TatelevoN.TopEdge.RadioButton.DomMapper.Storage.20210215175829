@@ -1,0 +1,19 @@
+query	target	和	英
+input[type="radio"][name="fontSize"][value="small"] + label	textContent	小	S
+input[type="radio"][name="fontSize"][value="medium"] + label	textContent	中	M
+input[type="radio"][name="fontSize"][value="large"] + label	textContent	大	L
+input[type="radio"][name="fontSize"][value="small"] + label	setAttribute,title	フォントサイズ小	fontSize small
+input[type="radio"][name="fontSize"][value="medium"] + label	setAttribute,title	フォントサイズ中	fontSize medium
+input[type="radio"][name="fontSize"][value="large"] + label	setAttribute,title	フォントサイズ大	fontSize large
+input[type="radio"][name="fontFamily"][value="serif"] + label	textContent	明	serif
+input[type="radio"][name="fontFamily"][value="gothic"] + label	textContent	ゴ	gothic
+input[type="radio"][name="fontFamily"][value="serif"] + label	setAttribute,title	明朝体	fontFamily serif
+input[type="radio"][name="fontFamily"][value="gothic"] + label	setAttribute,title	ゴシック体	fontFamily gothic
+input[type="radio"][name="color"][value="white"] + label	textContent	白	white
+input[type="radio"][name="color"][value="black"] + label	textContent	黒	black
+input[type="radio"][name="color"][value="white"] + label	setAttribute,title	背景色白	background-color white
+input[type="radio"][name="color"][value="black"] + label	setAttribute,title	背景色黒	background-color black
+input[type="radio"][name="writeDirection"][value="vertical"] + label	textContent	縦	vertical
+input[type="radio"][name="writeDirection"][value="horizontal"] + label	textContent	横	horizontal
+input[type="radio"][name="writeDirection"][value="vertical"] + label	setAttribute,title	タテ書き	writeDirection vertical
+input[type="radio"][name="writeDirection"][value="horizontal"] + label	setAttribute,title	ヨコ書き	writeDirection horizontal

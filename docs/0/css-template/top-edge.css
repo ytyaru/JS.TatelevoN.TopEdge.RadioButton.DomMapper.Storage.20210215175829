@@ -1,0 +1,15 @@
+{{query}} {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: none;
+    background-color: white;
+/*    background-color: transparent;*/
+    color: black;
+}
+{{query}}:hover {
+    display: inline;
+    background-color: white;
+/*    background-color: transparent;*/
+    color: black;
+}
